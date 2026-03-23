@@ -8,16 +8,17 @@ namespace ПР1
 {
     internal class Program
     {
-        public class Receipt
+        public class Monitor
         {
-           public int Number { get; set; }
-            public string Date { get; set; }
-            public float Summa { get; set; }
+           public string Firm { get; set; }
+            public string Type { get; set; }
+            public float Diagonal { get; set; }
 
-            public Receipt(int number, string date, float summa) { 
-                Number = number;
-                Date = date;
-                Summa = summa;
+            public Monitor(string firm, string type, float diagonal) {
+                Firm=firm;
+                Type=type;
+                Diagonal=diagonal;
+                
             }
         }
         static void Main(string[] args)
