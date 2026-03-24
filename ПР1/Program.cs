@@ -24,7 +24,8 @@ namespace ПР1
         static void Main(string[] args)
         {
             Monitor monitor = new Monitor("Samsung", "IPS", 27);
-            Console.WriteLine($"{monitor.Firm} {monitor.Type} {monitor.Diagonal}");
+            Console.WriteLine($"{monitor.Firm} {monitor.Type} {monitor.Diagonal}");//комментарий
+
 
         }
     }
